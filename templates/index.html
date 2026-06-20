@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Placement Prediction System</title>
+
+    <style>
+
+        body{
+            background:#2ba8cb;
+            font-family:Arial;
+        }
+
+        .container{
+            width:500px;
+            margin:auto;
+            margin-top:30px;
+            background:rgb(51, 208, 222);
+            padding:20px;
+            border-radius:15px;
+            box-shadow:0px 0px 15px gray;
+        }
+
+        h1{
+            text-align:center;
+            color:green;
+        }
+
+        input{
+            width:95%;
+            padding:10px;
+            margin-top:5px;
+            margin-bottom:10px;
+        }
+
+        button{
+            width:100%;
+            padding:12px;
+            background:green;
+            color:white;
+            border:none;
+            border-radius:8px;
+            font-size:18px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:darkgreen;
+        }
+
+        h2{
+            text-align:center;
+            color:blue;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎓 AI Placement Prediction</h1>
+
+<form action="/predict" method="POST">
+
+<label>Study Hours (0-20)</label>
+<input type="number" name="study_hours" min="0" max="20" required>
+
+<label>Attendance Percentage (0-100%)</label>
+<input type="number" name="attendance" min="0" max="100" required>
+
+<label>Sleep Hours (0-16)</label>
+<input type="number" name="sleep_hours" min="0" max="16" required>
+
+<label>Internet Usage (0-15)</label>
+<input type="number" name="internet_usage" min="0" max="15" required>
+
+<label>Assignments Completed (0-20)</label>
+<input type="number" name="assignments_completed" min="0" max="20" required>
+
+<label>Previous Score (0-100)</label>
+<input type="number" name="previous_score" min="0" max="100" required>
+
+<label>Exam Score (0-100)</label>
+<input type="number" name="exam_score" min="0" max="100" required>
+
+<br><br>
+
+<button type="submit">
+🚀 Predict Placement
+</button>
+
+</form>
+
+<br>
+
+<h2>
+{{ prediction_text|safe }}
+</h2>
+
+</div>
+
+</body>
+</html>
+
