@@ -5,7 +5,7 @@
 An end-to-end Machine Learning application that analyzes student academic and performance data to predict placement outcomes. This project demonstrates the complete ML pipeline—from data preprocessing and feature engineering to model training, evaluation, and deployment through a modern web interface.
 
 ## 🚀 Live Demo
-👉 **[Try the Live Application](https://placement-prediction-090a.onrender.com/predict)**
+👉 **[Try the Live Application](https://placement-prediction-090a.onrender.com)**
 
 ## 📂 GitHub Repository
 👉 **[View Source Code](https://github.com/ankitjangir10054-prog/placement-prediction)**
