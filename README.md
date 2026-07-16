@@ -1,9 +1,25 @@
-### 🌐 Live Demo
+```md
+# 🎯 Placement Prediction System
 
-Experience the Placement Prediction application here:
+> **Predict placement outcomes using the power of Machine Learning.**
 
-**🔗 https://placement-prediction-090a.onrender.com/predict**
+An end-to-end Machine Learning application that analyzes student academic and performance data to predict placement outcomes. This project demonstrates the complete ML lifecycle—from data preprocessing and feature engineering to model training, evaluation, and deployment through a modern web interface.
 
-This project demonstrates an end-to-end Machine Learning workflow, including data preprocessing, model training, evaluation, and deployment. It predicts a student's placement outcome based on academic and performance-related inputs through a simple, user-friendly web interface.
+## 🚀 Live Demo
+🌐 https://placement-prediction-090a.onrender.com/predict
 
-⭐ If you found this project helpful, please consider giving it a **Star** on GitHub!
+## ✨ Key Highlights
+- 🤖 End-to-End Machine Learning Pipeline
+- 📊 Exploratory Data Analysis & Feature Engineering
+- ⚡ FastAPI-powered Prediction API
+- 🎯 Real-time Placement Predictions
+- 📈 Clean, Responsive, and User-Friendly Interface
+- 🚀 Deployed on Render for Public Access
+
+## 💻 Tech Stack
+**Python • Scikit-learn • Pandas • NumPy • FastAPI • HTML • CSS • Render**
+
+---
+
+⭐ **If you found this project helpful, don't forget to leave a Star! Your support motivates me to build more AI and Machine Learning projects.**
+```
